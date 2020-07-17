@@ -1,9 +1,9 @@
 {
   "type": "postgres",
   "host": "localhost",
-  "username": "postgres",
-  "password": "senha123",
-  "database": "supervisory",
+  "username": "nomedobanco",
+  "password": "senhadobanco",
+  "database": "nomedodatabase",
   "entities": ["./src/models/*.ts"],
   "migrations": ["./src/database/migrations/*.ts"],
   "cli": {
